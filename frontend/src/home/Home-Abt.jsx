@@ -13,7 +13,7 @@ const HomeAbt = () => {
 
   return (
     <section className="min-h-screen flex items-center bg-white overflow-hidden py-12">
-      <div className="container mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+      <div className="w-full max-w-[1536px] mx-auto px-6 lg:px-16 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
         
         {/* Text Content */}
         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="fade-right">

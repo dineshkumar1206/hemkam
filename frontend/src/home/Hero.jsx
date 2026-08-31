@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Content */}
-      <div className="w-full max-w-[1126px] mx-auto px-8 md:px-16">
+      <div className="w-full max-w-[1536px] mx-auto px-8 lg:px-16">
         <div className="relative z-10 max-w-4xl text-white text-left">
         <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
           Committed to Superior<br />
