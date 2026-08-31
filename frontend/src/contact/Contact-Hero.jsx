@@ -14,7 +14,7 @@ const ContactHero = () => {
   return (
     <>
       {/* Banner Section */}
-      <section className="relative w-full h-[45vh] lg:h-[55vh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative w-full h-[40vh] lg:h-[50vh] flex items-center justify-center bg-black overflow-hidden">
         {/* The user will replace this src with their own banner image */}
         <img 
           src="/image/contact-banner.png" 
