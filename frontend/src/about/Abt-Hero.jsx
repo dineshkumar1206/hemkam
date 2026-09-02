@@ -21,10 +21,10 @@ const AbtHero = () => {
           alt="About Us Banner" 
           className="absolute inset-0 w-full h-full object-cover opacity-60"
         />
-        {/* Optional Title in Banner, uncomment if needed */}
-        {/* <div className="relative z-10 text-center mt-16">
+        {/* Title in Banner */}
+        <div className="relative z-10 text-center mt-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">About Us</h1>
-        </div> */}
+        </div>
       </section>
 
       {/* Content Section */}

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const PriceHero = () => {
+const ServiceHero = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -14,15 +14,15 @@ const PriceHero = () => {
   return (
     <section className="relative w-full h-[40vh] lg:h-[50vh] flex items-center justify-center bg-[#2b2b2b] overflow-hidden">
       <img 
-        src="/image/pricing-banner.png" 
-        alt="Pricing Banner" 
-        className="absolute inset-0 w-full h-full object-cover opacity-40"
+        src="/image/service-banner.png" 
+        alt="Service Banner" 
+        className="absolute inset-0 w-full h-full object-cover opacity-60"
       />
       <div className="relative z-10 text-center text-white mt-20" data-aos="fade-up">
-         <h1 className="text-5xl md:text-7xl font-bold tracking-wide">Pricing</h1>
+         <h1 className="text-5xl md:text-7xl font-bold tracking-wide">Services</h1>
       </div>
     </section>
   );
 };
 
-export default PriceHero;
+export default ServiceHero;

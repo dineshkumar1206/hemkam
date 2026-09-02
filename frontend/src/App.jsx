@@ -5,6 +5,7 @@ import Contact from './page/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Price from './page/Price'
+import Service from './page/Service'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Service />} />
         <Route path="/pricing" element={<Price />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

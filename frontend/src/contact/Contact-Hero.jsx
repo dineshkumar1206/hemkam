@@ -21,6 +21,10 @@ const ContactHero = () => {
           alt="Contact Banner" 
           className="absolute inset-0 w-full h-full object-cover opacity-60"
         />
+        {/* Title in Banner */}
+        <div className="relative z-10 text-center mt-16">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Contact</h1>
+        </div>
       </section>
 
       {/* Features / Team Members Section */}
