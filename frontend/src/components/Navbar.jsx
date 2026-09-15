@@ -48,7 +48,7 @@ const Navbar = () => {
                       <ul className="flex flex-col">
                         <li className="relative group/nested">
                           <div className="px-6 py-4 border-b border-white/20 hover:bg-[#4a41bd] transition-colors flex justify-between items-center cursor-pointer">
-                            <span>Residential Construction</span>
+                            <Link to="/services/residential" className="flex-1">Residential Construction</Link>
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                             </svg>
