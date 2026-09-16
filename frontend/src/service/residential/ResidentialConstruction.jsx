@@ -259,7 +259,9 @@ const ResidentialConstruction = () => {
           </div>
         </div>
       )}
-      <ServiceList/>
+      <div data-aos="fade-up">
+        <ServiceList/>
+      </div>
     </>
   );
 };
